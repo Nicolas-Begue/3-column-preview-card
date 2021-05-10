@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  transition: all 1s;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#container {
+  display: flex;
+  overflow: hidden;
+  width: 920px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+#container #left {
+  background-color: #e28525;
+}
+
+#container #center {
+  background-color: #016972;
+}
+
+#container #right {
+  background-color: #00403f;
+}
+h1 {
+  font-family: "Big Shoulders Display";
+  text-transform: uppercase;
+  color: white;
+  font-size: 34px;
+  padding: 0 65px 40px 50px;
+}
+p {
+  font-family: "Lexend Deca";
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+  padding: 0 65px 85px 50px;
+}
+
+img {
+  padding: 50px 0px 45px 50px;
+}
+button {
+  width: 140px;
+  height: 40px;
+  margin: 0 0 0 50px;
+  border-radius: 25px;
+  border: none;
+  font-family: "Lexend Deca";
+  border: 2px solid white;
+}
+#first {
+  color: #e28525;
+}
+#second {
+  color: #016972;
+}
+#third {
+  color: #00403f;
+}
+#first:hover {
+  background: #e28525;
+  color: white;
+}
+#second:hover {
+  background: #016972;
+  color: white;
+}
+#third:hover {
+  background: #00403f;
+  color: white;
+}
